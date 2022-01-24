@@ -1,0 +1,200 @@
+.my_agents {
+    height: 29px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 121.69%;
+    color: #001a0c;
+}
+
+.ag-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ag-h {
+    width: 650px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #3a5447;
+}
+
+.ag-l {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 18px;
+    line-height: 121.69%; */
+}
+
+.card {
+    margin-left: 27vw;
+}
+
+.nam:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        margin-left: 60%;
+    }
+
+    .back {
+        color: black;
+    }
+}
+
+.small-ag {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    color: #3a5447;
+}
+
+.num {
+    padding-top: 10px;
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+
+    color: #001a0c;
+}
+
+.selected--ag {
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #00a650;
+}
+
+.border--sel {
+    padding-top: 2px;
+    border-bottom: solid 2px #00a650;
+    border-radius: 10px;
+}
+
+.select--ag {
+    width: 91px;
+    height: 30px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    color: #938f9b;
+}
+
+.select--ag:hover {
+    cursor: pointer;
+}
+
+.nam {
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    color: #00190c;
+}
+
+.ap {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3a5447;
+}
+
+.back {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #c5bed1;
+}
+
+.ver {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #3a5447;
+}
+
+.per {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00a650;
+}
+
+.num {
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #001a0c;
+}
+
+.card-footer {
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+}
+
+.hea {
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #808080;
+}
+
+.am {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #001a0c;
+}

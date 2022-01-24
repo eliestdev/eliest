@@ -1,0 +1,48 @@
+.footer-bg {
+    background: #00a650;
+}
+
+.link {
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+
+    color: #e6fff2;
+}
+
+.footer-icon {
+    height: 40px;
+    width: 74px;
+}
+
+.footer-left--text {
+    width: 498px;
+    height: 84px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #3a5447;
+}
+
+@media screen and (max-width: 968px) {
+    .footer-left--text {
+        width: 374px;
+        height: 68px;
+       
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

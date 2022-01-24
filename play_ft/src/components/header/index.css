@@ -1,0 +1,15 @@
+.im {
+    margin-top: -22px;
+}
+
+.hide {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+}

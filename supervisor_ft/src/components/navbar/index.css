@@ -1,0 +1,161 @@
+.header--logo {
+    width: 98px;
+    height: 60px;
+}
+
+.desk--nav {
+    /* display: grid; */
+}
+
+.mobile--nav {
+    display: none;
+}
+
+@media screen and (max-width: 968px) {
+    .desk--nav {
+        display: none;
+    }
+
+    .header--logo {
+        width: 70px;
+        height: 42px;
+        margin-top: 30px;
+    }
+
+    .mobile--nav {
+        display: contents;
+    }
+}
+
+
+.dash-nav {
+    background: #00a650;
+    height: 100vh;
+}
+
+.nav-logo {
+    width: 98px;
+    height: 60px;
+}
+
+.links--list {
+    padding-top: 60px;
+}
+
+.link {
+    /* width: 57px; */
+    height: 27px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.header-bg {
+    height: 40vh;
+    background: rgba(246, 246, 246, 0.97);
+}
+
+.welcome-back {
+    width: 123px;
+    height: 25px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3a5447;
+}
+
+.agent-name {
+    width: 137px;
+    height: 43px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #3a5447;
+}
+
+.nav-button {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.option-name {
+    width: 81px;
+    height: 21px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #00a650;
+}
+
+.center-abs {
+    left: 40%;
+    text-align: center;
+}
+
+.wallet-abs {
+    left: 30%;
+    top: 50%;
+    /* width: 402px; */
+}
+
+.winning-wall {
+    background: rgba(0, 166, 80, 0.94);
+}
+
+.funded-wall {
+    background: #16311DF5;
+}
+
+.wall-logo {
+    width: 48px;
+    height: 28px;
+}
+
+.win--text {
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #ccffe5;
+}
+
+.acc-text {
+    width: 261px;
+    height: 29px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 121.69%;
+
+    color: #001a0c;
+}
+
+.p-win {
+    width: 538px;
+    height: 20px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+}

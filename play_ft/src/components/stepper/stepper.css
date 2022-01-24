@@ -1,0 +1,7 @@
+.step {
+    padding-left: -2px;
+}
+
+.step--active {
+    padding-left: 1px;
+}

@@ -1,0 +1,80 @@
+.wa {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+    color: #ccffe5;
+}
+
+.nt {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00a650;
+}
+
+.amount {
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    /* identical to box height, or 83% */
+
+    letter-spacing: -0.25px;
+
+    color: #ffffff;
+}
+
+.wema {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #3a5447;
+}
+
+.gret {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+    text-align: start;
+    color: #3a5447;
+}
+
+.a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.69%;
+
+    color: #ffffff;
+}
+
+.code {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+  
+    letter-spacing: -0.25px;
+
+    color: #3a5447;
+}

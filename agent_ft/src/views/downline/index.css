@@ -1,0 +1,32 @@
+.downline-center {
+    margin-top: -50px;
+}
+
+.downline--text {
+    width: 138px;
+    height: 30px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: -0.25px;
+
+    color: #3a5447;
+}
+
+.downline--count {
+    width: 65px;
+    height: 30px;
+    
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+   
+    letter-spacing: -0.25px;
+}

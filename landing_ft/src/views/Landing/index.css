@@ -1,0 +1,400 @@
+.landing--page {
+    background: #e5fff2 100%;
+    height: 100%;
+}
+
+.play {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.n {
+    font-family: 'Imstory', sans-serif;
+}
+
+.play-landing--text {
+    width: 533px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.whatup {
+    width: auto;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.play-landing--wait {
+    width: 533px;
+    font-family: "Brittany Signature", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130%;
+}
+
+.play-landing--code {
+    width: 533px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.play-landing--sub {
+    font-size: 30px;
+    color: #3a5447;
+}
+
+.landing--paragraph {
+    width: 667px;
+    height: 110px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 154.5%;
+    color: #3a5447;
+}
+
+.ussd {
+    margin-bottom: 20px;
+}
+
+.landing-ussd--title {
+    width: 363px;
+    height: 67px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 154.5%;
+    color: #ffffff;
+}
+
+.landing-ussd--sub {
+    width: 466px;
+    height: 75px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+    color: #ccffe5;
+}
+
+.h2 {
+    width: 819px;
+    height: 112px;
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130%;
+    color: #003319;
+    text-align: center;
+}
+
+.land-p {
+    width: 667px;
+    height: 53px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    text-align: center;
+
+    color: #3a5447;
+}
+
+.check-text {
+    width: 662px;
+    height: 85px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.check-p {
+    width: 667px;
+    height: 110px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #3a5447;
+}
+
+.card-colored {
+    background: #00a650;
+}
+
+.become-agent {
+    width: 332px;
+    height: 45px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.become-supervisor {
+    width: 396px;
+    height: 45px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+
+    color: #151e19;
+}
+
+.p-agent {
+    width: 506px;
+    height: 136px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #ccffe5;
+}
+
+.p-agent-black {
+    width: 506px;
+    height: 136px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #000;
+}
+
+.card-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #00a650;
+}
+
+.card-btn-sel {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #fff;
+    background: #00a650;
+}
+
+.close--up {
+    margin-left: -40px;
+}
+
+.c-btn {
+    width: 160px;
+    height: 40px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #00a650;
+    display: block;
+}
+
+@media screen and (max-width: 968px) {
+    .play-landing--text,
+    .play-landing--wait,
+    .play-landing--code {
+        width: auto;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    .landing--paragraph {
+        width: auto;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .play-landing--sub {
+        font-size: 23px;
+        color: #3a5447;
+        width: auto;
+    }
+
+    .landing-ussd--title {
+        text-align: center;
+        width: auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 154.5%;
+    }
+
+    .landing-ussd--sub {
+        width: 270px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        line-height: 154.5%;
+    }
+
+    .h2 {
+        width: auto;
+        height: 62px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    .land-p {
+        width: auto;
+        height: 53px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .check-text {
+        margin-top: 20px;
+        width: auto;
+        height: 59px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    .check-p {
+        width: auto;
+        height: 110px;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .become-agent {
+        width: auto;
+        height: 29px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: start;
+    }
+
+    .p-agent {
+        width: auto;
+        height: 136px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .p-agent-black {
+        width: auto;
+        height: 136px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .become-supervisor {
+        width: auto;
+        height: 29px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    .button--landing {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .mx-20 > img {
+        object-fit: fill;
+        width: auto;
+    }
+
+    .close--up {
+        margin-left: 0px;
+    }
+
+    .game--btn {
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .force {
+        margin-left: 23vw;
+    }
+
+    .c-btn {
+        display: none;
+    }
+
+    .whatup {
+       font-size: 32px;
+    }
+}

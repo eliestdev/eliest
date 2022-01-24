@@ -1,0 +1,28 @@
+.header--logo {
+    width: 98px;
+    height: 60px;
+}
+
+.desk--nav {
+    /* display: grid; */
+}
+
+.mobile--nav {
+    display: none;
+}
+
+@media screen and (max-width: 968px) {
+    .desk--nav {
+        display: none;
+    }
+
+    .header--logo {
+        width: 70px;
+        height: 42px;
+        margin-top: 30px;
+    }
+
+    .mobile--nav {
+        display: contents;
+    }
+}

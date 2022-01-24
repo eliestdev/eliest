@@ -1,0 +1,322 @@
+.landing--page {
+    background: #e5fff2 100%;
+    height: 100%;
+}
+
+.play-landing--text {
+    width: 533px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.play-landing--wait {
+    width: 533px;
+    font-family: "Brittany Signature", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130%;
+}
+
+.play-landing--code {
+    width: 533px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.landing--paragraph {
+    width: 667px;
+    height: 110px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+    color: #3a5447;
+}
+
+.ussd {
+    margin-bottom: 20px;
+}
+
+.landing-ussd--title {
+    width: 363px;
+    height: 67px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 154.5%;
+    color: #ffffff;
+}
+
+.landing-ussd--sub {
+    width: 466px;
+    height: 75px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+    color: #ccffe5;
+}
+
+.h2 {
+    width: 819px;
+    height: 112px;
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 130%;
+    color: #003319;
+    text-align: center;
+}
+
+.land-p {
+    width: 667px;
+    height: 53px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    text-align: center;
+
+    color: #3a5447;
+}
+
+.check-text {
+    width: 662px;
+    height: 85px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #003319;
+}
+
+.check-p {
+    width: 667px;
+    height: 110px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #3a5447;
+}
+
+.card-colored {
+    background: #00a650;
+}
+
+.become-agent {
+    width: 332px;
+    height: 45px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.become-supervisor {
+    width: 396px;
+    height: 45px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+
+    color: #151e19;
+}
+
+.p-agent {
+    width: 506px;
+    height: 136px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #ccffe5;
+}
+
+.p-agent-black {
+    width: 506px;
+    height: 136px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+
+    color: #000;
+}
+
+.card-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #00a650;
+}
+
+.card-btn-sel {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #fff;
+    background: #00a650;
+}
+
+.close--up {
+    margin-left: -40px;
+}
+
+.c-btn {
+    width: 160px;
+    height: 40px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #00a650;
+}
+
+@media screen and (max-width: 968px) {
+    .play-landing--text,
+    .play-landing--wait,
+    .play-landing--code {
+        width: 296px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    .landing--paragraph {
+        width: 374px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .landing-ussd--title {
+        width: 211px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 154.5%;
+    }
+
+    .landing-ussd--sub {
+        width: 318px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .h2 {
+        width: 374px;
+        height: 62px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    .land-p {
+        width: 372px;
+        height: 53px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .check-text {
+        width: 374px;
+        height: 59px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    .check-p {
+        width: 374px;
+        height: 110px;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .become-agent {
+        width: 332px;
+        height: 29px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: start;
+    }
+
+    .p-agent {
+        width: 322px;
+        height: 136px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+    }
+
+    .become-supervisor {
+        width: 332px;
+        height: 29px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 130%;
+    }
+}

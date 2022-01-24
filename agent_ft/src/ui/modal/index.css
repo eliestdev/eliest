@@ -1,0 +1,252 @@
+/**
+* ----------------------------------------------
+* Accordion styles
+* ----------------------------------------------
+**/
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    width: 32vw;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: #f4f4f4;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: #ddd;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    float: right;
+    content: "";
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+    transform: rotate(45deg);
+}
+
+[hidden] {
+    display: none;
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.code {
+    height: 48px;
+    width: 18vw;
+    opacity: 0.35;
+    border: 1px solid #f3f0f6;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 10px rgba(241, 239, 245, 0.35));
+    border-radius: 5px;
+}
+
+.v-label {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.lef-v {
+    width: 25vw;
+    height: 60px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 10px rgba(241, 239, 245, 0.35));
+}
+
+.to {
+    width: 32vw;
+}
+
+.total {
+    width: 35px;
+    height: 17px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 121.69%;
+
+    color: #3a5447;
+}
+
+.amount {
+    width: 81px;
+    height: 22px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 121.69%;
+
+    color: #3a5447;
+}
+
+.d-name {
+    width: 135px;
+    height: 30px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    color: #00190c;
+}
+
+.d-p {
+    width: 184px;
+    height: 18px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #3a5447;
+}
+
+.down {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #808080;
+}
+
+.count {
+    width: 15px;
+    height: 14px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+
+    color: #001a0c;
+}
+
+.h3--m {
+    width: 186px;
+    height: 29px;
+
+    font-family: "ITC Avant Garde Gothic Std Book";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #001a0c;
+}
+
+.p--m {
+    width: 276px;
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #3a5447;
+}
+
+.close {
+    float: right;
+}
+
+.dl {
+    width: 199px;
+    height: 22px;
+
+    font-family: " ITC Avant Garde Gothic Std", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #003319;
+}
+
+.down--list {
+    width: 32vw;
+}
+
+.lef-name {
+    width: 182px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 121.69%;
+    /* identical to box height, or 22px */
+
+    color: #001a0c;
+}
+
+.righ-name { 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #3A5447;
+}
+
+@media screen and (max-width: 768px) {
+    .accordion {
+        width: 80vw;
+    }
+
+    .code {
+        width: 31vw;
+    }
+}

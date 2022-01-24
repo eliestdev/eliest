@@ -1,0 +1,73 @@
+.title {
+    width: 100%;
+    font-size: 30px;
+    font-family: "ITC Avant Garde Gothic Std Bold", sans-serif;
+    color: #003319;
+}
+
+.code {
+    font-size: 26px;
+    color: #000;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+
+.trophy {
+    height: 140px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 100%; 
+    background: #f7f7f7;
+}
+
+.trophy > img {
+    margin-top: 15%;
+    margin-left: 15%;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.win {
+    height: 115px;
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 100%; 
+    background: #f7f7f7;
+}
+
+.win > img {
+    margin-top: 15%;
+    margin-left: 15%;
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.uncet {
+    margin-left: 24%;
+}
+
+.cet {
+    margin-left: 18%;
+}
+
+@media screen and (max-width: 768px){
+    .cet {
+        margin-left: 6%;
+    }
+
+    .uncet {
+        margin-left: 18%;
+    }
+}
+
+.ScratchCard__Canvas
+  {width: 100% !important;
+height: 230px !important;
+}

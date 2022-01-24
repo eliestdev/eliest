@@ -1,0 +1,78 @@
+.how {
+    background: #fff;
+}
+
+.hp-header {
+    width: 560px;
+    height: 73px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #00a650;
+}
+
+.hp-p {
+    width: 694px;
+    height: 62px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 154.5%;
+    /* or 31px */
+
+    color: #3a5447;
+}
+
+.how-body {
+    margin-top: 5%;
+    margin-left: 22%;
+}
+
+.collapse-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #716585;
+}
+
+@media screen and (max-width: 768px) {
+    .how-body {
+        margin-left: 4%;
+    }
+
+    .hp-header {
+        max-width: 90vw;
+        height: 53px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #00a650;
+    }
+
+    .hp-p {
+        max-width: 90vw;
+        height: 66px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 154.5%;
+        
+        color: #3a5447;
+    }
+}
+
+.text {
+    margin-bottom: 14px;
+}

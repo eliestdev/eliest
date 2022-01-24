@@ -1,0 +1,76 @@
+.balance {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    /* color: #ccffe5; */
+}
+
+.text-color {
+    color: white
+}
+
+.curr--bal {
+    width: 118px;
+    height: 30px;
+    font-family: "ITC Avant Garde Gothic Std Bold", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+}
+
+.amount--text {
+    width: 137px;
+    height: 24px;
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00190c;
+}
+
+.amount--subtext {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.25px;
+    color: #3a5447;
+    width: 254px;
+    height: 36px;
+}
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+}
+
+.label--amount {
+    width: 30px;
+    height: 30px;
+    left: 44px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #454545;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 968px){
+    .text-color {
+        color: black;
+    }
+}

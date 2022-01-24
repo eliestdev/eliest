@@ -1,0 +1,25 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    :root {
+        --color-text-base: #ff40f5;
+        --color-text-muted: #f6f6f6;
+        --color-text-inverted:#4f46e5;
+        --color-fill: #fff
+    }
+    .theme-box-dark{
+        --color-fill: #285E61;
+        --color-text-base: #F7FAFC;
+        --color-text-muted: #CBD5E0;
+    }
+    .theme-box-light{
+        --color-fill: #F7FAFC;
+        --color-text-base: #1F2937;
+        --color-text-muted: #718096;
+    }
+}

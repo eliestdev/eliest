@@ -1,0 +1,33 @@
+.dialog--title {
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0a0f0d;
+    text-align: center;
+}
+
+.dialog--subtitle {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    /* width: 501px; */
+    height: 66px;
+    color: #3a5447;
+}
+
+.icon-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 606px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.bottom--svg {
+    /* position: absolute;
+    bottom: 0; */
+    /* width: 100vw; */
+}
+
+img {
+    object-fit: fill;
+}

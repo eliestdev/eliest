@@ -1,0 +1,21 @@
+.chip {
+    width: 150px;
+    font-size: 15px;
+}
+
+.stick {
+    overflow: hidden;
+    position: fixed;
+}
+
+.body {
+    margin-left: 240px;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px){
+    .body {
+        margin-left: 0px;
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,33 @@
+
+iframe {
+  width: 100% !important;
+  height: 100vh !important;
+}
+/* CHECKBOX TOGGLE SWITCH */
+/* @apply rules for documentation, these do not work as inline style */
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68D391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68D391;
+}
+
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}

@@ -1,0 +1,15 @@
+.error {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+@media screen and (max-width: 968px) {
+  .error {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

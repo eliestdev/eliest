@@ -1,0 +1,86 @@
+.lotto {
+    width: 489px;
+    height: 128px;
+    left: 492px;
+    top: 121px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 130%;
+    color: #fcfcfc;
+}
+
+.game {
+    width: 304px;
+    height: 86px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    color: #001a0c;
+}
+
+.game--text {
+    width: 404px;
+    height: 54px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+    color: #3a5447;
+}
+
+.all--text {
+    width: 125px;
+    height: 24px;
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #00190c;
+}
+
+.grid--text {
+    width: 60px;
+    height: 15px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 121.69%;
+    color: #3a5447;
+}
+
+/* input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: 6px;
+    background-color: #00A650;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: 6px;
+    background-color: #00A650;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+} */

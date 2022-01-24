@@ -1,0 +1,65 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("http://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("http://fonts.cdnfonts.com/css/brittany-signature");
+
+body,
+html {
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #E5E5E5; */
+}
+
+button {
+  outline: none;
+}
+
+.btn-primary {
+  background: #00a650;
+}
+
+.text-primary {
+  color: #00a650;
+}
+
+.s__content {
+	background: conic-gradient(at center bottom, rgb(255, 255, 255), rgb(14, 165, 233), rgb(14, 165, 233));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.ScratchCard__Canvas
+  {width: 100% !important;
+  height: 230px !important;
+  }

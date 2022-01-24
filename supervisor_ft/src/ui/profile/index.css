@@ -1,0 +1,80 @@
+.dialog--title {
+    text-align: start;
+}
+
+.close {
+    float: right;
+}
+
+.profile--name {
+    /* width: 233px; */
+    height: 29px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: start;
+    color: #001a0c;
+}
+
+.profile--active {
+    /* width: 276px; */
+    height: 27px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: start;
+
+    color: #3a5447;
+}
+
+label {
+    /* width: 101px; */
+    height: 30px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #808080;
+    text-align: start;
+}
+
+.field--label {
+    width: 101px;
+    height: 30px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    color: #808080;
+}
+
+.referral-code {
+    width: 60px;
+    height: 30px;
+    left: 105px;
+    top: 600px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.25px;
+
+    color: #3a5447;
+}

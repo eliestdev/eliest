@@ -1,0 +1,89 @@
+.desc {
+    width: 190px;
+    height: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #3a5447;
+}
+
+.game--card {
+}
+
+.win--amount {
+    width: 109px;
+    height: 30px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #3a5447;
+}
+
+.win--amount--sel {
+    width: 80px;
+    height: 30px;
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #3a5447;
+}
+
+.play--btn {
+    width: 64px;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.play--text {
+    width: 50px;
+    height: 30px;
+
+    font-family: "ITC Avant Garde Gothic Std", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    color: #ffffff;
+    transform: rotate(-90deg);
+}
+
+.play--text {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .win--amount--sel {
+        width: 109px;
+        height: 30px;
+        font-family: "ITC Avant Garde Gothic Std", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 30px;
+        letter-spacing: -0.25px;
+        color: #3a5447;
+    }
+
+    .desc {
+        font-size: 17px;
+    }
+    
+}

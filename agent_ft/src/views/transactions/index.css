@@ -1,0 +1,25 @@
+.transaction-header {
+    width: 332px;
+    height: 29px;
+
+    font-family: "ITC Avant Garde Gothic Std Book", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 121.69%;
+
+    color: #001a0c;
+}
+
+.transaction-text {
+    width: 385px;
+    height: 26px;
+   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154.5%;
+   
+    color: #3a5447;
+}
